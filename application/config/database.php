@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'room_inspection';
+$db['default']['hostname'] = 'ap-cdbr-azure-east-a.cloudapp.net';
+$db['default']['username'] = 'b8a8c38095682e';
+$db['default']['password'] = 'f8b4f71f';
+$db['default']['database'] = 'objectivecloud';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

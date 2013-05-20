@@ -54,6 +54,7 @@ class master_service extends CI_Controller {
 			$html .="<project_id>".$project["project_id"]."</project_id>";
 			$html .="<project_code>".$project["project_code"]."</project_code>";
 			$html .="<project_name>".$project["project_name"]."</project_name>";
+			$html .="<ipad_active>".$project["ipad_active"]."</ipad_active>";
 			$html .="<buildings>".$this->_building_tag_row($project["project_id"])."</buildings>";
 			/*foreach ($project as $key => $value) {
 			
